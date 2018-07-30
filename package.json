@@ -1,0 +1,43 @@
+{
+  "name": "i_movie",
+  "version": "1.0.0",
+  "description": "itPoet imooc movie",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "connect-multiparty": "^2.1.1",
+    "express": "^4.15.2",
+    "grunt-mocha-test": "^0.13.3",
+    "jade": "^1.11.0",
+    "moment": "^2.18.1",
+    "mongoose": "^4.9.3",
+    "pug": "^2.0.0-beta11",
+    "serve-static": "^1.12.1",
+    "should": "^13.2.2",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "bcrypt": "^3.0.0",
+    "connect-mongo": "^2.0.1",
+    "cookie-parser": "^1.4.3",
+    "express-session": "^1.15.6",
+    "grunt": "^1.0.3",
+    "grunt-concurrent": "^2.3.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-less": "^2.0.0",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-nodemon": "^0.4.2",
+    "mocha": "^5.2.0",
+    "morgan": "^1.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node.js",
+    "MongoDB"
+  ],
+  "author": "itPoet",
+  "license": "ISC"
+}
